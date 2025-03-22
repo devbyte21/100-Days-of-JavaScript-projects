@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 48, 48) !important;
+}
+
+.container {
+  width: 60vw;
+  height: 40vh;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
